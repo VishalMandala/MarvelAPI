@@ -1,0 +1,10 @@
+<div> 
+  <h1>{{res}}</h1> <!-- data.data.results[0].name -->
+  <img alt= {{res}} src='{{path}}.{{ext}}'/>  <!-- data.data.results[0].thumbnail.path -->
+  <p>{{description}}</p>
+  <ul>
+      {{#each comics}}
+    <li>>{{this.name}}</li>
+    {{/each}}
+  </ul>
+</div> 
